@@ -32,3 +32,4 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
             ATLANTIS=0.19.2
+            TERRAGRUNT=0.36.8
