@@ -11,5 +11,5 @@ ADD https://github.com/gruntwork-io/terragrunt/releases/download/v0.36.8/terragr
 RUN chmod +x /usr/local/bin/terragrunt
 
 ADD https://github.com/env0/terratag/releases/download/v0.1.37/terratag_0.1.37_linux_arm64.tar.gz /tmp/terratag_0.1.37_linux_arm64.tar.gz
-RUN tar -xvf /tmp/terratag_0.1.37_linux_arm64.tar.gz -C /usr/local/bin/terratag
+RUN tar -xvf /tmp/terratag_0.1.37_linux_arm64.tar.gz -C /usr/local/bin
 RUN chmod +x /usr/local/bin/terratag
